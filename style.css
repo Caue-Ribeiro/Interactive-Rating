@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Overpass';
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+}
+
+section {
+    background-color: hsl(213, 19%, 18%);
+    width: 350px;
+    height: 350px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 020 15px 15px rgba(52, 52, 82, 0.144);
+}
+
+.star-icon {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(240, 248, 255, 0.13);
+    width: 11%;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+h2 {
+    color: azure;
+    letter-spacing: 1px;
+}
+p {
+    margin-top: 10px;
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+}
+
+.rating-options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.numbers {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(240, 248, 255, 0.13);
+    width: 12%;
+    padding: 10px;
+    border-radius: 50%;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.numbers:hover {
+    background-color: rgba(240, 248, 255, 0.514);
+    transition: all 0.4s;
+}
+
+.activate {
+    background-color: hsl(25, 97%, 53%);
+}
+
+.activate:hover {
+    background-color: hsl(25, 97%, 53%);
+}
+
+#submit {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin-top: 10px;
+    appearance: none;
+    border: none;
+    width: 250px;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    transition: all 0.4s;
+}
+
+/* Pop up section*/
+
+.popup {
+    display: none;
+    flex-direction: column;
+}
+
+.registered {
+    display: flex;
+    justify-content: center;
+}
+
+.second-textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#rating-msg {
+    background-color: rgba(240, 248, 255, 0.13);
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    color: hsl(25, 97%, 53%);
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+#thanks-msg {
+    text-align: center;
+}
