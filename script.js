@@ -14,7 +14,7 @@ function rating_number(event) {
 
     event.target.classList.add('activate')
 
-    message.textContent = `You selected ${chosenNumber.textContent} ou of 5`
+    message.textContent = `You selected ${chosenNumber.textContent} out of 5`
 
     submit_button.addEventListener('click', () => {
         if (chosenNumber.className.includes('activate'))
